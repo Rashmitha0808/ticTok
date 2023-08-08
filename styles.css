@@ -1,0 +1,36 @@
+* {
+  background-color: rgb(46, 42, 42);
+  color: #f3b6b6;
+}
+
+h2 {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.messages {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(243, 226, 226);
+}
+.game-box {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  flex-wrap: wrap;
+  color: white !important;
+}
+.grid {
+  width: 90px;
+  height: 90px;
+  margin: 2px;
+  font-size: 24px;
+  border-radius: 5px;
+  background-color: rgb(69, 10, 10);
+}
+.grid:hover {
+  transform: translate(-3);
+}
